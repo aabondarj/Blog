@@ -1,0 +1,70 @@
+.input-frame {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.input-frame label {
+    color: #262626;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-frame input {
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 12px;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.input-frame p,
+.checkbox-frame p {
+    font-size: 12px;
+    color: red;
+}
+
+.error-input {
+    border: 1px solid red !important;
+}
+
+.checkbox-frame {
+    font-size: 14px;
+    color: #595959;
+    cursor: pointer;
+}
+
+.form-button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #1890FF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+hr {
+    border-color: #E8E8E8;
+}
+
+.under-button {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    color: #8C8C8C;
+}
+
+.under-button a {
+    text-decoration: none;
+    color: #1890FF;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+  }

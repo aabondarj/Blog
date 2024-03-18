@@ -1,0 +1,15 @@
+.article-list {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.aritcle-item {
+    background-color: #fff;
+    list-style: none;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px 0 rgba($color: #000000, $alpha: 0.15);
+}

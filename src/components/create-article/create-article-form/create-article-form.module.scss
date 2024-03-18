@@ -1,0 +1,114 @@
+.input-frame {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.input-frame label {
+    color: #262626;
+    font-size: 14px;
+    margin-bottom: 5px;
+
+}
+
+.input-frame input {
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 12px;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.input-frame p,
+.checkbox-frame p {
+    font-size: 12px;
+    color: red;
+}
+
+.error-input {
+    border: 1px solid red !important;
+}
+
+.textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.textarea::placeholder {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.tags-frame {
+    display: flex;
+    flex-direction: column;
+}
+
+.tag-input {
+    margin-bottom: 5px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.button {
+    height: 40px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #1890FF;
+    color: #1890FF;
+    margin-left: 18px;
+    padding: 8px 36px;
+    cursor: pointer;
+}
+
+.button-delete {
+    border: 1px solid #F5222D;
+    color: #F5222D;
+}
+
+.button-delete:hover {
+    border: 1px solid #F5222D;
+    background-color: #F5222D;
+    color: #fff;
+}
+
+.button-add:hover {
+    border: 1px solid #1890FF;
+    background-color: #1890FF;
+    color: #fff;
+}
+
+.hiden-button {
+    display: none;
+}
+
+
+.form-button {
+    width: 319px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #1890FF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+  .error-tags {
+    margin: 0;
+    margin-bottom: 7px;
+    margin-top: 3px;
+    font-size: 10px;
+    color: #898989;
+  }

@@ -2,4 +2,4 @@
 
 ## Link to App
 
-[text](https://)
+[LINK](https://blog-rosy-xi.vercel.app/)
